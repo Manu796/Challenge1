@@ -1,35 +1,52 @@
-*{
+/**{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-body{
-    background-color: #31326f !important;
-}
-.container{
-    background-color: white;
-    border-radius: 20px !important;
-    padding-bottom: 10px;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
-
-
+*/
+/*
 .navbar{
     display: inline;
     margin: 2%;
-}
+}*/
 
-.contenido{
-    font-family: 'Raleway', sans-serif !important;
-}
 
+/*
 #foto{
     box-shadow: 10px 30px 100px rgba(17, 0, 255, 0.6) !important;
     position: absolute;
     z-index: 1;
+}*/
+/*
+.container-2{
+    display: flex;
+}*/
+/*
+.main-header{
+    display: inline-block;
+}*/
+
+
+*{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+body{
+    background-color: #182746 !important;
+}
+/*182746*/
+
+.container{
+    background-color: white;
+    border-radius: 20px !important;
+    padding-bottom: 8px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+#contenedorprincipal{
+    box-shadow: 10px 10px 20px 2px black;
 }
 .puntos{
     position: absolute;
@@ -52,3 +69,39 @@ body{
     text-align: center;
 }
 
+h2, p, h6{
+    color: black;
+}
+
+.img-fluid{
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.cuadricula1{
+    position: absolute;
+    
+    height: 30%;   /*tamaño*/
+    bottom: 265px; /*mover verticalmente*/
+    right: 435px;    /*mover horizontalmente*/
+}
+
+.cuadricula2{
+    position: absolute;
+    z-index: -1;
+    height: 15%;   /*tamaño*/
+    bottom: 534px; /*mover verticalmente*/
+    right: 83px;    /*mover horizontalmente*/
+}
+
+.cuadricula3{
+    position: absolute;
+    z-index: -1;
+    height: 15%;   /*tamaño*/
+    bottom: 70px; /*mover verticalmente*/
+    right: 1245px;    /*mover horizontalmente*/
+}
+
+#fotomia{
+    box-shadow: 25px 20px 1px 5px blue;
+}
